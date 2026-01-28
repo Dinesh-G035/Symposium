@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg-dark text-white font-inter;
+  }
+}
+
+.glass-card {
+  @apply bg-bg-card backdrop-blur-md border border-white/10 shadow-lg rounded-xl;
+}
+
+.neon-text {
+  text-shadow: 0 0 5px rgba(0, 243, 255, 0.7), 0 0 10px rgba(0, 243, 255, 0.5);
+}
+
+@media (min-width: 640px) {
+  .neon-text {
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.7), 0 0 20px rgba(0, 243, 255, 0.5);
+  }
+}
+
+.neon-border {
+  box-shadow: 0 0 5px #00f3ff, inset 0 0 5px #00f3ff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050510;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00f3ff;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bc13fe;
+}
