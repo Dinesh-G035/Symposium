@@ -31,8 +31,7 @@ const About = () => {
                     <p className="text-gray-300 leading-relaxed font-inter text-justify">
                         ARIVOLI'26 is a National Level Technical Symposium designed to showcase the future of technology.
                         It serves as a platform for students to exhibit their innovative ideas, technical skills, and creativity
-                        through various technical and non-technical events. Join us in exploring the boundaries of AI, Robotics,
-                        and Cyber-Tech.
+                        through various technical and non-technical events.
                     </p>
                 </div>
 

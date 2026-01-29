@@ -105,7 +105,7 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     name="name"
-                                    placeholder="John Doe"
+                                    placeholder="Enter your name"
                                     required
                                     className="w-full bg-bg-dark border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neon-blue focus:shadow-[0_0_10px_rgba(0,243,255,0.2)] transition-all font-inter"
                                 />
@@ -115,7 +115,7 @@ const Contact = () => {
                                 <input
                                     type="email"
                                     name="email"
-                                    placeholder="john@example.com"
+                                    placeholder="Enter your email"
                                     required
                                     className="w-full bg-bg-dark border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neon-blue focus:shadow-[0_0_10px_rgba(0,243,255,0.2)] transition-all font-inter"
                                 />
