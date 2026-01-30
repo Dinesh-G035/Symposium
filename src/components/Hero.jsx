@@ -74,8 +74,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.6 }}
                         className="mt-4 sm:mt-6 text-xs sm:text-base md:text-lg lg:text-xl font-orbitron font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon-blue via-white to-neon-blue tracking-[0.15em] sm:tracking-[0.2em] text-center px-4 max-w-4xl mx-auto"
-                        style={{ textShadow: '0 0 10px rgba(0, 212, 255, 0.3)' }}
-                    >
+                        style={{ textShadow: '0 0 10px rgba(0, 212, 255, 0.3)' }}>
                         NATIONAL LEVEL TECHNICAL SYMPOSIUM 2K'26
                     </motion.h2>
 
@@ -86,7 +85,7 @@ const Hero = () => {
                         className="mt-4 flex flex-col items-center gap-2"
                     >
                         <span className="text-[10px] sm:text-xs font-orbitron text-neon-blue tracking-widest uppercase opacity-80">
-                            HOSTED BY DEPARTMENTS OF
+                            HOSTED BY THE DEPARTMENTS OF
                         </span>
                         <div className="flex flex-wrap justify-center gap-2 sm:gap-8 items-center">
                             {['CSE', 'IT', 'CSBS', 'AND', 'AI&DS'].map((dept, idx) => (

@@ -40,8 +40,7 @@ const About = () => {
                         <Award className="mr-3" /> KIOT
                     </h3>
                     <p className="text-gray-300 leading-relaxed font-inter text-justify">
-                        Knowledge Institute of Technology (KIOT), Salem is a premier institution approved by AICTE and affiliated to Anna University.
-                        Accredited with NAAC 'A' Grade and NBA, KIOT is an Autonomous institution committed to excellence in engineering education.
+                        Knowledge Institute of Technology (KIOT), Salem, is a premier institution approved by AICTE and affiliated with Anna University. Accredited with NAAC ‘A’ Grade and NBA, KIOT is an autonomous institution committed to quality and innovation in engineering education.
                     </p>
                 </div>
             </div>
