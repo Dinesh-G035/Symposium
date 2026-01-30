@@ -74,13 +74,13 @@ const Contact = () => {
                         className="block glass-card p-2 h-64 overflow-hidden relative group cursor-pointer"
                     >
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.689617835848!2d77.9620073153676!3d11.56536699178923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babe461e737194d%3A0x6b772023023e61c6!2sKnowledge%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1625123456789!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.361006857106!2d78.01660137536349!3d11.556285243657356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babe40754d8480f%3A0x4bf024dfe3e621ec!2sKnowledge%20Institute%20of%20Technology%20(KIOT)!5e0!3m2!1sen!2sin!4v1706625800000!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
-                            style={{ border: 0, pointerEvents: 'none' }}
+                            style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"
-                            className="rounded-lg grayscale group-hover:grayscale-0 transition-all duration-500"
+                            className="rounded-lg shadow-lg"
                         ></iframe>
                     </a>
                 </motion.div>
