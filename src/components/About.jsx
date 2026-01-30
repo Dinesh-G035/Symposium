@@ -46,34 +46,33 @@ const About = () => {
             </div>
 
             {/* Accreditation Marquee Section */}
-            <div className="relative overflow-hidden py-16 mt-10">
+            <div className="relative overflow-hidden py-6 mt-10 -ml-[50vw] left-1/2 w-screen">
                 {/* Visual Fades for a premium look */}
 
                 {/* The Marquee Container */}
                 <div className="flex w-max whitespace-nowrap animate-marquee">
                     {[
                         { image: "/NAAC.png", highlight: "NAAC A", },
-                        { image: "/nba-logo.png", highlight: "NBA",  },
-                        { image: "/idealab.png", highlight: "IDEALAB",  },
-                        { image: "/istart.png", highlight: "ISTART",  },
-                        { image: "/IIC.png", highlight: "IIC",},
-                        { image: "/ICTA.png", highlight: "ICTACADEMY",  },
+                        { image: "/nba-logo.png", highlight: "NBA", },
+                        { image: "/idealab.png", highlight: "IDEALAB", },
+                        { image: "/istart.png", highlight: "ISTART", },
+                        { image: "/IIC.png", highlight: "IIC", },
+                        { image: "/ICTA.png", highlight: "ICTACADEMY", },
                         { image: "/iste-logo.png", highlight: "ISTE", },
                         { image: "/IEEE.png", highlight: "IEEE", }
                     ].concat([
                         { image: "/NAAC.png", highlight: "NAAC A", },
-                        { image: "/nba-logo.png", highlight: "NBA",  },
+                        { image: "/nba-logo.png", highlight: "NBA", },
                         { image: "/idealab.png", highlight: "IDEALAB", },
-                        { image: "/istart.png", highlight: "ISTART",  },
+                        { image: "/istart.png", highlight: "ISTART", },
                         { image: "/IIC.png", highlight: "IIC", },
-                        { image: "/ICTA.png", highlight: "ICTACADEMY",  },
+                        { image: "/ICTA.png", highlight: "ICTACADEMY", },
                         { image: "/iste-logo.png", highlight: "ISTE", },
                         { image: "/IEEE.png", highlight: "IEEE", }
                     ]).map((item, index) => (
                         <div
                             key={index}
-                            className="inline-flex flex-col items-center justify-center w-[200px] sm:w-[280px] px-2 sm:px-4 flex-shrink-0"
-                        >
+                            className="inline-flex flex-col items-center justify-center w-[200px] sm:w-[280px] px-2 sm:px-4 flex-shrink-0">
                             <div className="w-24 h-24 sm:w-32 sm:h-32 bg-white border-4 border-[#00d4ff] rounded-full mb-4 relative z-10 flex items-center justify-center overflow-hidden shadow-[0_4px_15px_rgba(0,212,255,0.3)]">
                                 <img
                                     loading="lazy"
