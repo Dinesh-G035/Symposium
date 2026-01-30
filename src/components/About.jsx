@@ -60,16 +60,7 @@ const About = () => {
                         { image: "/ICTA.png", highlight: "ICTACADEMY", },
                         { image: "/iste-logo.png", highlight: "ISTE", },
                         { image: "/IEEE.png", highlight: "IEEE", }
-                    ].concat([
-                        { image: "/NAAC.png", highlight: "NAAC A", },
-                        { image: "/nba-logo.png", highlight: "NBA", },
-                        { image: "/idealab.png", highlight: "IDEALAB", },
-                        { image: "/istart.png", highlight: "ISTART", },
-                        { image: "/IIC.png", highlight: "IIC", },
-                        { image: "/ICTA.png", highlight: "ICTACADEMY", },
-                        { image: "/iste-logo.png", highlight: "ISTE", },
-                        { image: "/IEEE.png", highlight: "IEEE", }
-                    ]).map((item, index) => (
+                    ].map((item, index) => (
                         <div
                             key={index}
                             className="inline-flex flex-col items-center justify-center w-[200px] sm:w-[280px] px-2 sm:px-4 flex-shrink-0">
@@ -82,7 +73,6 @@ const About = () => {
                                 />
                             </div>
                             <h4 className="text-base sm:text-xl font-bold font-orbitron text-white text-center pb-0.5">{item.highlight}</h4>
-                            <p className="text-gray-400 text-[10px] sm:text-sm font-inter text-center font-medium leading-tight">{item.sub}</p>
                         </div>
                     ))}
                 </div>
